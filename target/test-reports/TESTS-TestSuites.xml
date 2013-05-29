@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="1" failures="0" hostname="Pauls-MacBook-Pro-2.local" id="0" name="ReviewControllerUnitSpec" package="com.kapasoft" tests="1" time="2.547" timestamp="2013-04-01T00:16:29">
+      <properties />
+
+      <testcase classname="com.kapasoft.ReviewControllerUnitSpec" name="retreive Review by name" time="2.503">
+          <error message="Cannot get property &apos;clazz&apos; on null object" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot get property &apos;clazz&apos; on null object
+	at com.kapasoft.RestApiController.show(ReviewController.groovy:11)
+	at com.kapasoft.ReviewControllerUnitSpec.retreive Review by name(ReviewControllerUnitSpec.groovy:20)
+]]></error>
+
+      </testcase>
+
+      <system-out />
+
+      <system-err><![CDATA[--Output from retreive Review by name--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

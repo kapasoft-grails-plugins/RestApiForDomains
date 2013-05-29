@@ -1,0 +1,25 @@
+<plugin name='rest-api-for-domains' version='0.1-SNAPSHOT' grailsVersion='2.1 &gt; *'>
+  <author>Your name</author>
+  <title>Rest Api For Domains Plugin</title>
+  <description>Brief summary/description of the plugin.
+</description>
+  <documentation>http://grails.org/plugin/rest-api-for-domains</documentation>
+  <type>RestApiForDomainsGrailsPlugin</type>
+  <resources>
+    <resource>RestApiUrlMappings</resource>
+    <resource>com.kapasoft.RestApiController</resource>
+  </resources>
+  <repositories>
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+  </repositories>
+  <dependencies />
+  <plugins>
+    <test>
+      <plugin group='org.grails.plugins' name='spock' version='0.7' />
+    </test>
+  </plugins>
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>

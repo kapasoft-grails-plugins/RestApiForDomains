@@ -1,0 +1,13 @@
+Testsuite: com.kapasoft.ReviewControllerUnitSpec
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 2.547 sec
+------------- Standard Error -----------------
+--Output from retreive Review by name--
+------------- ---------------- ---------------
+
+Testcase: retreive Review by name took 2.407 sec
+	Caused an ERROR
+Cannot get property 'clazz' on null object
+java.lang.NullPointerException: Cannot get property 'clazz' on null object
+	at com.kapasoft.ReviewController.show(ReviewController.groovy:11)
+	at com.kapasoft.ReviewControllerUnitSpec.retreive Review by name(ReviewControllerUnitSpec.groovy:20)
+
